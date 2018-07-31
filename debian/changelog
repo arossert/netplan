@@ -1,3 +1,11 @@
+netplan (0.2.0-1~0+sp1ubuntu1) UNRELEASED; urgency=medium
+
+  * Rebuild for bionic:
+    - drop the new B-D: debhelper-compat (= 11) mechanism, bionic's
+      dh_python does not seem to like it
+
+ -- Peter Pentchev <roam@debian.org>  Tue, 31 Jul 2018 16:41:52 +0300
+
 netplan (0.2.0-1~0+sp1) unstable; urgency=medium
 
   * New upstream release.
